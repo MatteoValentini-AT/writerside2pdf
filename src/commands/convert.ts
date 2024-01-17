@@ -5,7 +5,7 @@ import PDFMerger from 'pdf-merger-js';
 import puppeteer from 'puppeteer'
 import {Args, Command} from "@oclif/core";
 
-export default class Writerside2pdf extends Command {
+export default class Convert extends Command {
     static args = {
         instance: Args.string({description: 'Writerside instance URL', required: true}),
         output: Args.string({description: 'output file', required: false}),
@@ -15,7 +15,7 @@ export default class Writerside2pdf extends Command {
     static description = 'Converts a Writerside document to PDF'
 
     static examples = [
-        '$ writerside2pdf http://localhost:63342/writerside2pdf/preview documentation.pdf "Matteo Valentini"',
+        '$ convert http://localhost:63342/writerside2pdf/preview documentation.pdf "Matteo Valentini"',
     ]
 
     convert = async (baseURL, output, title, author) => {
@@ -212,7 +212,7 @@ export default class Writerside2pdf extends Command {
 
 
     async run() {
-        const {args} = await this.parse(Writerside2pdf)
+        const {args} = await this.parse(Convert)
         if (/^https?:\/\/[\d.:A-Za-z-]*\/[\d.A-Za-z-]*\/preview/g.test(args.instance)) {
             const matches = args.instance.match(/^https?:\/\/[\d.:A-Za-z-]*\/[\d.A-Za-z-]*\/preview/g)
             if (matches == null) {

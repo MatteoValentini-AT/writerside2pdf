@@ -4,7 +4,7 @@
         <primary-color>aqua</primary-color>
         <product-web-url>https://github.com/MatteoValentini-AT/writerside2pdf</product-web-url>
         <download-title>Report an issue</download-title>
-        <download-page>https://github.com/MatteoValentini-AT/writerside2pdf</download-page>
+        <download-page>https://github.com/MatteoValentini-AT/writerside2pdf/issues</download-page>
         <showDownloadButton>true</showDownloadButton>
     </variables>
     <build-profile instance="writerside2pdf.tree"/>

@@ -7,7 +7,7 @@ This tool allows to convert a Writerside preview to a PDF file. The goal is to s
 This tool requires [Node.js](https://nodejs.org/en/) to be installed on your system.
 
 ```bash
-npx writerside2pdf <writerside-instance> [output-file] [author name]
+npx writerside2pdf convert <writerside-instance> [output-file] [author name]
 ```
 
 The Writerside instance has to be a full URL to a Writerside page (local preview also works), e.g. ```http://localhost:63342/writerside2pdf/preview/usage.html```.
