@@ -207,14 +207,14 @@ export default class Convert extends Command {
         await merger.setMetadata(meta);
         await merger.save(output);
         fs.rmSync('pages', {recursive: true})
-        console.log('Done! Created ' + output + '.pdf')
+        console.log('Done! Created ' + output)
     }
 
 
     async run() {
         const {args} = await this.parse(Convert)
-        if (/^https?:\/\/[\d.:A-Za-z-]*\/[\d.A-Za-z-]*\/preview/g.test(args.instance)) {
-            const matches = args.instance.match(/^https?:\/\/[\d.:A-Za-z-]*\/[\d.A-Za-z-]*\/preview/g)
+        if (/^https?:\/\/.*\//g.test(args.instance)) {
+            const matches = args.instance.match(/^https?:\/\/.*\//g)
             if (matches == null) {
                 this.error('Invalid Writerside instance URL')
                 return
