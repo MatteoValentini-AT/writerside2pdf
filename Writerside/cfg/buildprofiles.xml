@@ -1,0 +1,11 @@
+<buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
+    <variables>
+        <primary-color>aqua</primary-color>
+        <product-web-url>https://github.com/MatteoValentini-AT/writerside2pdf</product-web-url>
+        <download-title>Report an issue</download-title>
+        <download-page>https://github.com/MatteoValentini-AT/writerside2pdf</download-page>
+        <showDownloadButton>true</showDownloadButton>
+    </variables>
+    <build-profile instance="writerside2pdf.tree"/>
+</buildprofiles>

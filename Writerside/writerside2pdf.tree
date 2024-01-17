@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="writerside2pdf"
+                 name="writerside2pdf"
+                 start-page="Usage.md">
+
+    <toc-element topic="Usage.md"/>
+    <toc-element topic="Tabs-and-Code.md"/>
+    <toc-element topic="Images-Notes.md"/>
+    <toc-element topic="OpenAPI-docs.md"/>
+    <toc-element topic="Math-Diagrams.md"/>
+</instance-profile>
