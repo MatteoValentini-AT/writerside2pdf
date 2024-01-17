@@ -66,10 +66,10 @@
     "prepare": "npm run build",
     "version": "oclif readme && git add README.md"
   },
-  "version": "0.0.1",
+  "version": "0.1.0",
   "bugs": "https://github.com/MatteoValentini-AT/writerside2pdf/issues",
   "keywords": [
-    "oclif"
+    "writerside", "pdf", "convert"
   ],
   "types": "dist/index.d.ts",
   "exports": "./lib/index.js",

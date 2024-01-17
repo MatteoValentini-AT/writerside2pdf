@@ -19,12 +19,13 @@ Use quotes around the author name if it contains spaces.
 The following examples are provided to showcase what works in the current version of the library.
 If you notice any problems, please report them in the [issue tracker]().
 
-| Example                             | Description                                  |
-|-------------------------------------|----------------------------------------------|
-| [Tabs and Code](Tabs-and-Code.md)   | A simple example using tabs and code blocks. |
-| [Images & Notes](Images-Notes.md)   | A simple example using images and notes.     |
-| [OpenAPI docs](OpenAPI-docs.md)     | A simple example using OpenAPI docs.         |
-| [Math & Diagrams](Math-Diagrams.md) | A simple example using Math and Diagrams.    |
+| Example                             | Description                               |
+|-------------------------------------|-------------------------------------------|
+| [Tabs and Code](Tabs-and-Code.md)   | Code blocks grouped in Tabs & edge cases  |
+| [Images & Notes](Images-Notes.md)   | Some images, notes and other basic blocks |
+| [OpenAPI docs](OpenAPI-docs.md)     | A simple example using OpenAPI docs       |
+| [Math & Diagrams](Math-Diagrams.md) | Some LateX equations and diagrams         |
+
 
 ## Supported features
 | Element         | Status |
